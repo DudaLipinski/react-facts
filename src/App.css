@@ -1,0 +1,79 @@
+#root {
+  --color-grey-600: #282D35;
+  --color-grey-700: #21222A;
+  --color-blue-200: #DEEBF8;
+  --color-blue-300: #61DAFB;
+  --color-white: #ffffff;
+}
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 16px;
+  background-color: #282D35;
+}
+
+.main-nav {
+  height: 90px;
+  background-color: var(--color-grey-700);
+  padding: 0 28px;
+
+}
+
+.main-nav__list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: inherit;
+}
+
+.main-nav__item--logo {
+  display: flex;
+}
+
+.main-nav__img {
+  width: 27px;
+  margin-right: 7px;
+}
+
+.main-nav__h3 {
+  line-height: 27px;
+  font-size: 22px;
+  color: var(--color-blue-300);
+  font-weight: 700;
+}
+
+.main-nav__h4 {
+  color: var(--color-white);
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.main-content {
+  padding: 57px 28px 0 28px;
+  background-image: url('../src/assets/reactjs-icon 2.png');
+  background-repeat: no-repeat;
+  background-position: 30% bottom;
+
+}
+
+.main-content__title {
+  font-size: 39px;
+  font-weight: 700;
+  line-height: 47px;
+  letter-spacing: -0.05em;
+  color: var(--color-white);
+}
+
+.main-content__list li {
+  margin-bottom: 20px;
+  line-height: 19px;
+  font-size: 16px;
+  font-weight: 400px;
+  color: var(--color-white);
+}
+
+.main-content__list li::marker {
+  font-size: 1.4rem;
+  color: var(--color-blue-300);
+}
